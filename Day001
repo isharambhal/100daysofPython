@@ -1,0 +1,18 @@
+Day 001: Band Name Generator
+
+This simple program generates a unique band name based on user input. It first prompts the user to enter the name of their city and their favourite colour, then combines these inputs to suggest a band name. Additionally, the program calculates and displays the total length of the band name, giving a fun and interactive experience to the user.
+
+# Create a greeting for this program
+print('Welcome to the Band Name Generator')
+
+# Get city's name from the user input.
+your_city = input('What\'s the name of your city?\n')
+
+# Get favorite color from user input
+favorite_color = input('What is your favorite color?\n')
+
+print('Your band name could be:' + your_city+ ' ' + favorite_color)
+
+# To know total length of the Band Name
+length_of_bandname = len('Your band name could be:' + your_city+ ' ' + favorite_color)
+print('Your band name has: ' + str(length_of_bandname) + ' letters')
